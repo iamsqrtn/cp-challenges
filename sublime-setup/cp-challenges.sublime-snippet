@@ -228,8 +228,8 @@ int main()
   	cin>>_;
   	while(_--)
   	{
-    	solve();
-    	cout<<endl;     
+  		solve();
+  		cout<<endl;     
   	}
   	return 0;	
 }
