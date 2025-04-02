@@ -1,0 +1,91 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+
+#include<ext/pb_ds/assoc_container.hpp>
+#include<ext/pb_ds/tree_policy.hpp>
+#include<ext/pb_ds/detail/standard_policies.hpp>
+
+#pragma GCC optimize("Ofast,unroll-loops,fast-math")
+
+#define endl     "\n"
+#define pie      3.14159265358979323846
+#define inf      1e9+7
+
+#define fast_io  ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+
+#define fix_prec cout.setf(std::ios::fixed, std::ios::floatfield); cout.precision(9);
+
+#define pb       push_back
+#define pf       push_front
+#define eb       emplace_back
+#define ppb      pop_back
+#define ppf      pop_front
+
+#define mp       make_pair
+#define F        first
+#define S        second
+
+#define all(x)   x.begin(),x.end()
+#define rall(x)  x.rbegin(),x.rend()
+
+#define lb       lower_bound
+#define ub       upper_bound
+
+using namespace std;
+using namespace __gnu_pbds;
+
+typedef tree <int, null_type, less<int>, rb_tree_tag,
+tree_order_statistics_node_update> ordered_set;
+
+typedef long long int lli;
+typedef unsigned long long int ulli;
+typedef vector<int> vi;
+typedef vector<lli> vlli;
+typedef vector<vector<int>> vvi;
+typedef vector<vector<lli>> vvlli;
+typedef vector<pair<int,int>> vpii;
+typedef vector<pair<lli,lli>> vplli;
+typedef pair<int,int> pii;
+typedef pair<lli,lli> plli;
+typedef map<int,int> mii;
+typedef map<lli,lli> mlli;
+
+lli const mod  = 1e9+7;
+lli const modl = 1e18;
+
+void readwrite()
+{
+	#ifndef ONLINE_JUDGE
+		freopen("input.txt","r",stdin);
+		freopen("output.txt","w",stdout);
+	#endif
+} 
+
+void solve()
+{
+	
+}
+
+int main()
+{
+	fast_io;
+  	fix_prec;
+  	//readwrite();
+
+  	int _;
+  	cin>>_;
+  	while(_--)
+  	{
+    	solve();
+    	cout<<endl;     
+  	}
+  	return 0;	
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cp-snippet-clean</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
