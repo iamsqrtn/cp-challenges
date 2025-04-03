@@ -18,8 +18,8 @@ public:
 };
 
 int main() {
-    vector<int>nums={12,6,1,2,7};
     Solution sol;
+    vector<int>nums={12,6,1,2,7};
     cout<<sol.maximumTripletValue(nums)<<endl;
     return 0;
 }
