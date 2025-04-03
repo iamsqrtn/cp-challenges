@@ -22,8 +22,8 @@ public:
 };
 
 int main() {
-    vector<vector<int>>questions={{3,2},{4,3},{4,4},{2,5}};
     Solution sol;
+    vector<vector<int>>questions={{3,2},{4,3},{4,4},{2,5}};
     cout<<sol.mostPoints(questions)<<endl;
     return 0;
 }
