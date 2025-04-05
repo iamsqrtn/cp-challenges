@@ -3,7 +3,6 @@
 // #include "stdc++.h" copy its contents in bits/stdc++.h file
 #include <bits/stdc++.h>
 
-
 #define endl     "\n"
 #define pie      3.14159265358979323846
 #define inf      1e9+7
